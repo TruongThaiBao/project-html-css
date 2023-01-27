@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+    scroll-behavior: smooth;
+    color: #555;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0px;
+}
+
+/* Nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav>div{
+    display: flex;
+    align-items: center;
+
+}
+
+nav>div>p{
+    font-size:45px;
+    margin: 10px 10px 0px 10px;
+}
+
+nav>div>ul{
+    list-style-type: none;
+    display:flex;
+    padding-left: 0px;
+    margin: 15px 10px 0px;
+    flex-wrap: wrap;
+}
+
+nav>div>ul>li>a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+nav>div>ul>li>a:hover{
+    color: #fff;
+    background-color: rgb(242, 83, 83);
+}
+
+/* Header */
+header>div{
+    display:inline-flex;
+    align-items: center;
+}
+
+header>div>h2{
+    padding-right: 5px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+header>div>p{
+    text-transform: lowercase;
+}
+
+/* Main */
+main{
+  margin-top: -20px;
+}
+main>div>ul>li>a{
+  text-decoration: none;  
+}
+main>div>ul>li>a:hover{
+  font-weight: 500;
+  color: tomato;
+}
+main>div>ul{
+    list-style-type: none;
+    display:flex;
+    margin-left: -30px;
+    margin-top: 40px;
+}
+
+main>div>ul>li{
+    padding-right: 5px;
+    font-size:14px;
+    font-size: larger;
+}
+ 
+  .main-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .main-item>div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -45px;
+    margin-top: -30px;
+    flex-wrap: wrap;
+  }
+
+  /* .item{
+    margin: 15px 40px;
+  } */
+  .item1:before{
+    background-image: url(/img/1.jpeg);
+    background-size:cover;
+  }
+  .item2:before{
+    background-image: url(/img/2.jpeg);
+    background-size:cover;
+  }
+  .item3:before{
+    background-image: url(/img/3.jpeg);
+    background-size:cover;
+  }
+  .item4:before{
+    background-image: url(/img/4.jpeg);
+    background-size:cover;
+  }
+  .item5:before{
+    background-image: url(/img/5.jpg);
+    background-size:contain;
+  }
+  .item6:before{
+    background-image: url(/img/6.jpeg);
+    background-size:cover;
+  }
+  .item7:before{
+    background-image: url(/img/7.jpeg);
+    background-size:cover;
+  }
+  .item8:before{
+    background-image: url(/img/8.jpeg);
+    background-size:cover;
+  }
+
